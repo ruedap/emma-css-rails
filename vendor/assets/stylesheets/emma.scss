@@ -1,4 +1,4 @@
-/*! Emma.css 0.1.0 | Emmet-like utility classes | MIT License | git.io/emma */
+/*! Emma.css 0.2.0 | emmet-like utility classes | MIT License | git.io/emma */
 
 $emma-prefix: "u-" !default;
 $emma-important: true !default;
@@ -200,7 +200,9 @@ $emma-single-declaration-list: (
     ( bxz-cb      , box-sizing             , content-box ),
     ( bxz-bb      , box-sizing             , border-box ),
     ( bxsh-n      , box-shadow             , none ),
+    ( m-a         , margin                 , auto ),
     ( m-0         , margin                 , 0 ),
+    ( m-0_a       , margin                 , 0 auto ),              // ^1
     ( m-xs        , margin                 , $emma-margin-xs ),     // ^1
     ( m-sm        , margin                 , $emma-margin-sm ),     // ^1
     ( m-md        , margin                 , $emma-margin-md ),     // ^1
@@ -579,15 +581,15 @@ $emma-single-declaration-list: (
     ( ff-v        , font-family            , 'Verdana, Geneva, sans-serif' ),
     ( ff-l        , font-family            , '"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, "Helvetica Neue", Helvetica, sans-serif' ),
     ( op-0        , opacity                , 0 ),
-    ( op-01       , opacity                , 0.1 ),                 // ^1
-    ( op-02       , opacity                , 0.2 ),                 // ^1
-    ( op-03       , opacity                , 0.3 ),                 // ^1
-    ( op-04       , opacity                , 0.4 ),                 // ^1
-    ( op-05       , opacity                , 0.5 ),                 // ^1
-    ( op-06       , opacity                , 0.6 ),                 // ^1
-    ( op-07       , opacity                , 0.7 ),                 // ^1
-    ( op-08       , opacity                , 0.8 ),                 // ^1
-    ( op-09       , opacity                , 0.9 ),                 // ^1
+    ( op-0_1      , opacity                , 0.1 ),                 // ^1
+    ( op-0_2      , opacity                , 0.2 ),                 // ^1
+    ( op-0_3      , opacity                , 0.3 ),                 // ^1
+    ( op-0_4      , opacity                , 0.4 ),                 // ^1
+    ( op-0_5      , opacity                , 0.5 ),                 // ^1
+    ( op-0_6      , opacity                , 0.6 ),                 // ^1
+    ( op-0_7      , opacity                , 0.7 ),                 // ^1
+    ( op-0_8      , opacity                , 0.8 ),                 // ^1
+    ( op-0_9      , opacity                , 0.9 ),                 // ^1
     ( op-1        , opacity                , 1 ),
     ( rsz-n       , resize                 , none ),
     ( rsz-b       , resize                 , both ),
@@ -666,9 +668,9 @@ $emma-multiple-declaration-list: (
 //  | snippet     | extended selector
 // --------------------------------------------------------------------------
     ( cf          , "%emma-cf" ),
-    ( tet         , "%emma-tet" ),
-    ( lir         , "%emma-lir" ),
-    ( abc         , "%emma-abc" ),
+    ( tetr        , "%emma-tetr" ),
+    ( lire        , "%emma-lire" ),
+    ( abce        , "%emma-abce" ),
 ) !default;
 
 // Clearfix (Contain floats)
@@ -678,7 +680,7 @@ $emma-multiple-declaration-list: (
 }
 
 // Text truncation (ellipsis)
-%emma-tet {
+%emma-tetr {
   max-width: 100%;
   overflow: hidden !important;
   text-overflow: ellipsis !important;
@@ -687,13 +689,13 @@ $emma-multiple-declaration-list: (
 }
 
 // List reset
-%emma-lir {
+%emma-lire {
   list-style: none;
   padding-left: 0;
 }
 
 // Absolute center
-%emma-abc {
+%emma-abce {
   bottom: 0;
   display: table;
   left: 0;
