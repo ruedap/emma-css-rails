@@ -1,6 +1,36 @@
 # emma-css-rails
 
-[Emma.css](https://github.com/ruedap/emma.css) { Emmet-like utility classes } for Rails
+[Emma.css](https://github.com/ruedap/emma.css) { emmet-like utility classes } for Rails
+
+## Installation
+
+Add this to your `Gemfile`:
+
+```
+gem "emma-css-rails"
+```
+
+and run `bundle install`.
+
+## Usage
+
+In your `application.css`, include the css file:
+
+``` css
+/*
+ *= require emma
+ */
+```
+
+Then restart your webserver if it was previously running.
+
+If you prefer SCSS, add this to your `application.css.scss` file:
+
+``` scss
+@import "emma";
+```
+
+See also: [Getting Started with Emma.css](https://github.com/ruedap/emma.css#getting-started)
 
 ## License
 

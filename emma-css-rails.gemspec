@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email       = ["ruedap@ruedap.com"]
   s.homepage    = "https://github.com/ruedap/emma-css-rails"
   s.summary     = "Emma.css for Rails"
-  s.description = "Emma.css { Emmet-like utility classes } for Rails"
+  s.description = "Emma.css { emmet-like utility classes } for Rails"
   s.license     = "MIT"
 
   s.files = Dir["{lib,vendor}/**/*", "MIT-LICENSE", "Rakefile", "README.md", "CHANGELOG.md"]
