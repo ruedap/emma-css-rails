@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.description = "Emma.css { Emmet-like utility classes } for Rails"
   s.license     = "MIT"
 
-  s.files = Dir["{lib,vendor}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  s.files = Dir["{lib,vendor}/**/*", "MIT-LICENSE", "Rakefile", "README.md", "CHANGELOG.md"]
 
-  s.add_runtime_dependency 'sass-rails', '~> 5.0'
+  s.add_runtime_dependency "sass-rails", "~> 5.0"
 end
