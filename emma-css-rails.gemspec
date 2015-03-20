@@ -16,5 +16,6 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{lib,vendor}/**/*", "MIT-LICENSE", "Rakefile", "README.md", "CHANGELOG.md"]
 
-  s.add_runtime_dependency "sass-rails", "~> 5.0"
+  s.add_runtime_dependency "sass", ">= 3.4"
+  s.add_runtime_dependency "sass-rails", ">= 5.0"
 end
