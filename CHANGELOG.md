@@ -1,4 +1,7 @@
 # emma-css-rails Changelog
 
+## 0.2.0.0
+* Update emma.scss to 0.2.0
+
 ## 0.1.0.0
 * Initial public release
