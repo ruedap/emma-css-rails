@@ -2,6 +2,9 @@
 
 ## master (unreleased)
 
+## 0.3.0.0
+* Update emma.scss to 0.3.0
+
 ## 0.2.0.1
 * Add runtime dependency: sass >= 3.4
 
