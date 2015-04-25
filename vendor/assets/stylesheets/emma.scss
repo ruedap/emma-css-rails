@@ -1,4 +1,4 @@
-/*! Emma.css 0.3.0 | emmet-like utility classes | MIT License | git.io/emma */
+/*! Emma.css 0.4.0 | emmet-like utility classes | MIT License | git.io/emma */
 
 $emma-prefix: "u-" !default;
 $emma-important: true !default;
@@ -670,7 +670,7 @@ $emma-multiple-declaration-list: (
     ( cf          , "%emma-cf" ),
     ( tetr        , "%emma-tetr" ),
     ( tehi        , "%emma-tehi" ),
-    ( lire        , "%emma-lire" ),
+    ( reli        , "%emma-reli" ),
     ( abce        , "%emma-abce" ),
 ) !default;
 
@@ -692,12 +692,12 @@ $emma-multiple-declaration-list: (
 // Text hiding
 %emma-tehi {
   overflow: hidden !important;
-  text-indent: 100% !important;
+  text-indent: 200% !important;
   white-space: nowrap !important;
 }
 
-// List reset
-%emma-lire {
+// Reset list
+%emma-reli {
   list-style: none;
   padding-left: 0;
 }
@@ -705,9 +705,9 @@ $emma-multiple-declaration-list: (
 // Absolute center
 %emma-abce {
   bottom: 0;
-  display: table;
   left: 0;
   margin: auto;
+  position: absolute;
   right: 0;
   top: 0;
 }
