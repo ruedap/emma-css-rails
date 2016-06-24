@@ -3,6 +3,9 @@
 ## master (unreleased)
 * Nothing
 
+## 0.6.0.0
+* Update emma.scss to 0.6.0
+
 ## 0.4.0.0
 * Update emma.scss to 0.4.0
 
