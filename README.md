@@ -18,7 +18,7 @@ In your `application.css`, include the css file:
 
 ``` css
 /*
- *= require emma
+ *= require emma.css/emma.scss
  */
 ```
 
@@ -27,7 +27,7 @@ Then restart your webserver if it was previously running.
 If you prefer SCSS, add this to your `application.css.scss` file:
 
 ``` scss
-@import "emma";
+@import "emma.css/emma.scss";
 ```
 
 See also: [Getting Started with Emma.css](https://github.com/ruedap/emma.css#getting-started)
@@ -38,4 +38,4 @@ Released under the [MIT license](http://ruedap.mit-license.org/2015).
 
 ## Author
 
-<a href="https://github.com/ruedap"><img src="https://dl.dropboxusercontent.com/u/281168/images/github-ruedap-avatar-1500x1500.png" alt="ruedap" title="ruedap" width="100" height="100"></a>
+<a href="https://github.com/ruedap"><img src="https://avatars.githubusercontent.com/u/289671?v=3&s=300" alt="ruedap" title="ruedap" width="100" height="100"></a>
