@@ -18,7 +18,7 @@ In your `application.css`, include the css file:
 
 ``` css
 /*
- *= require emma.css/emma.scss
+ *= require emma.css/sass/all
  */
 ```
 
@@ -27,7 +27,7 @@ Then restart your webserver if it was previously running.
 If you prefer SCSS, add this to your `application.css.scss` file:
 
 ``` scss
-@import "emma.css/emma.scss";
+@import "emma.css/sass/all";
 ```
 
 See also: [Getting Started with Emma.css](https://github.com/ruedap/emma.css#getting-started)
