@@ -3,3 +3,6 @@
 log/*.log
 pkg/
 Gemfile.lock
+node_modules/
+package.json
+package-lock.json
