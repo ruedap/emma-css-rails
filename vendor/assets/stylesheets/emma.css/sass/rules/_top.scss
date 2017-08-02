@@ -6,3 +6,6 @@
   top: 0 #{emma-important($emma-important)};
 }
 
+.#{$emma-prefix}t100p {
+  top: 100% #{emma-important($emma-important)};
+}

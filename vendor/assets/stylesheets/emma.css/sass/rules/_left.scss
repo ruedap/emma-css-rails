@@ -6,3 +6,6 @@
   left: 0 #{emma-important($emma-important)};
 }
 
+.#{$emma-prefix}l100p {
+  left: 100% #{emma-important($emma-important)};
+}
