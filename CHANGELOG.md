@@ -1,7 +1,10 @@
-# emma-css-rails Changelog
+# CHANGELOG
 
 ## master (unreleased)
 * Nothing
+
+## 0.11.0.0
+* Update emma.css to 0.11.0
 
 ## 0.10.0.0
 * Update emma.css to 0.10.0
