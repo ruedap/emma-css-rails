@@ -1,4 +1,4 @@
-/*! Emma.css 0.11.0 | MIT License | https://git.io/emma */
+/*! Emma.css 0.13.0 | MIT License | https://git.io/emma */
 .pos-s { position: static !important; }
 .pos-r { position: relative !important; }
 .pos-a { position: absolute !important; }
@@ -553,7 +553,7 @@
 .bdrs5 { border-radius: 5px !important; }
 .bdrs6 { border-radius: 6px !important; }
 .bdrs9999 { border-radius: 9999px !important; }
-.bdrs100p { border-radius: 100% !important; }
+.bdrs50p { border-radius: 50% !important; }
 .c-ih { color: inherit !important; }
 .c-white { color: #ffffff !important; }
 .c-silver { color: #dddddd !important; }
@@ -649,6 +649,21 @@
 .wow-s { word-wrap: suppress !important; }
 .wow-bw { word-wrap: break-word !important; }
 .lts-nm { letter-spacing: normal !important; }
+.lts0 { letter-spacing: 0 !important; }
+.lts1 { letter-spacing: 1px !important; }
+.lts2 { letter-spacing: 2px !important; }
+.lts3 { letter-spacing: 3px !important; }
+.lts4 { letter-spacing: 4px !important; }
+.lts5 { letter-spacing: 5px !important; }
+.lts6 { letter-spacing: 6px !important; }
+.lts0_01e { letter-spacing: 0.01em !important; }
+.lts0_1e { letter-spacing: 0.1em !important; }
+.lts0_2e { letter-spacing: 0.2em !important; }
+.lts0_3e { letter-spacing: 0.3em !important; }
+.lts-0_01e { letter-spacing: -0.01em !important; }
+.lts-0_1e { letter-spacing: -0.1em !important; }
+.lts-0_2e { letter-spacing: -0.2em !important; }
+.lts-0_3e { letter-spacing: -0.3em !important; }
 .fw-nm { font-weight: normal !important; }
 .fw-b { font-weight: bold !important; }
 .fw-br { font-weight: bolder !important; }
@@ -718,7 +733,7 @@
 .wkfsm-n { -webkit-font-smoothing: none !important; }
 .mzfsm-g { -moz-osx-font-smoothing: grayscale !important; }
 .mzfsm-u { -moz-osx-font-smoothing: unset !important; }
-.tetr { max-width: 100% !important; overflow: hidden !important; text-overflow: ellipsis !important; white-space: nowrap !important; word-wrap: normal !important; }
+.tetr { overflow: hidden !important; text-overflow: ellipsis !important; white-space: nowrap !important; word-wrap: normal !important; }
 .tehi { overflow: hidden !important; text-indent: 200% !important; white-space: nowrap !important; }
 .reli { list-style: none !important; padding-left: 0 !important; }
 .fsm-a { -webkit-font-smoothing: antialiased !important; -moz-osx-font-smoothing: grayscale !important; }

@@ -8,7 +8,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "emma.css": "^0.12.0"
+    "emma.css": "^0.13.0"
   },
   "devDependencies": {
     "babel": "^6.23.0",
