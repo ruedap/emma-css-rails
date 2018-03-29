@@ -1,0 +1,39 @@
+{
+  "name": "emma-css-rails",
+  "version": "1.0.0",
+  "description":
+    "[Emma.css](https://github.com/ruedap/emma.css) { emmet-like utility classes } for Rails",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "emma.css": "^0.13.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "gulp": "^3.9.1",
+    "npm-check-updates": "^2.14.1"
+  },
+  "babel": {
+    "presets": ["es2015"]
+  },
+  "scripts": {
+    "update:emma":
+      "ncu -u && npm i && gulp replace-emma && npm run commit:emma",
+    "commit:emma": "git add . && git commit -m 'feat: Upadte emma.css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruedap/emma-css-rails.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruedap/emma-css-rails/issues"
+  },
+  "homepage": "https://github.com/ruedap/emma-css-rails#readme"
+}
