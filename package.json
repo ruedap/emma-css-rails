@@ -23,10 +23,7 @@
   "scripts": {
     "update:emma":
       "ncu -u && npm i && gulp replace-emma && npm run commit:emma",
-    "commit:emma": "git add . && git commit -m 'feat: Upadte emma.css'",
-    "update:changelog":
-      "conventional-changelog -p angular -i CHANGELOG.md -s -r 1 && npm run commit:changelog",
-    "commit:changelog": "git add . && git commit -m 'docs: Update CHANGELOG'"
+    "commit:emma": "git add . && git commit -m 'feat: Upadte emma.css'"
   },
   "repository": {
     "type": "git",
