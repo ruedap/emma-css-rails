@@ -1,5 +1,6 @@
 {
   "name": "emma-css-rails",
+  "private": true,
   "version": "1.0.0",
   "description":
     "[Emma.css](https://github.com/ruedap/emma.css) { emmet-like utility classes } for Rails",
